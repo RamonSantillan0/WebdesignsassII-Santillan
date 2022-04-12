@@ -1,0 +1,157 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+main h1{
+    color: darkblue;
+}
+
+main p{
+    color: rgb(127, 178, 255);
+}
+
+section h2 {
+    color: darkblue
+}
+footer{
+    background-color: black;
+    opacity: 0.9;
+}
+
+footer p{
+    color: antiquewhite;  
+}
+
+.letraBig {
+    font-size: 40px;
+}
+
+.negritas {
+    font-style: bold;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.parrafo {
+    text-align: justify;
+}
+
+/* header */
+header nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+header nav ul li a{
+    color : #188c84;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+header nav img{
+    margin: 12px 0 0 10px;
+}
+header nav ul li a:hover{
+    background-color: #a9bd35;
+    color :antiquewhite
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    margin-right: 4rem;
+}
+
+/* main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    
+}
+main h1{
+    margin-top: 3rem;
+}
+main p{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0 3rem;
+}
+main iframe{
+    margin-bottom: 3rem;
+}
+/* contenedor */
+.contenedor{
+    margin: 0 3rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contenedor p{
+    margin: 150px 100px;
+}
+.contenedor img{
+    border: 10px solid #188c84;
+    padding: 3rem;
+}
+
+.galeria {
+    background-color: rgb(245, 245, 245);
+    margin-top: 3rem;
+    align-items: center;
+
+    
+}
+.galeria h2{
+    margin:  3rem;
+}
+.galeria div{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.galeria img {
+    margin-left: 5.2rem;
+    margin-bottom: 3rem;
+}
+
+footer {
+    padding-top: 3rem;
+    text-align: center;
+}
+footer p {
+    padding-bottom: 3rem;
+}
+
+/*blog*/
+.blog{
+    margin-top: 3rem;
+    align-items: center;
+    text-align: center;
+}
+.blog h2{
+    margin-top: 5px;
+}
+.blog p{
+    padding: 0 34rem;
+}
+
+/* contacto */
+
+.social {
+    margin: 5rem 0;
+}
+
+/* condiciones */
+
+.condiciones p{
+    padding: 0 20rem;
+}

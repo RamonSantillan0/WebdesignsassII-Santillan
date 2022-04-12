@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Diseño y Desarrollo web para Argentina y Latinoamerica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/customize.png" type="image/x-icon">
+    <meta name="description" content="Pagina web dirigida a personas que busquen servicio de diseño web en Argentina. Contamos con expertos en las nuevas tecnologias de diseño y desarrollo web">
+    <meta name="keywords" content="Paginas Web, Paginas, Web, Desarrollo Web, Desarrollo, Diseño Web, Diseño, Diseño Responsive, Responsive, Diseño Adaptativo, Adaptativo, Argentina, Latinoamerica, America Latina, SEO, Posicionamiento, Negocio, Tienda,">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">WebDesign</h1>
+        <ul class="menu-links">
+            <li ><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="./condiciones.html">Condiciones</a></li>
+            <li class="btn"><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        <img src="./img/botonblanco.png" alt="" class="menu-btn">
+    </nav>
+    <header class="header">
+        <div class="header-contenedor">
+            <h2>Diseño Web</h2>
+            <div class="line"></div>
+            <h1>Te ayudamos a desarrollarte en el mundo digital</h1>
+            <a href="#" class="btn">Leer mas</a>
+        </div>
+    </header>
+
+    <section class="blog"> 
+        <h1>Nuestro Blog</h1>
+        <div class="card">
+           <img src="./img/web1.jpg" alt="web 1">
+           <h2>Publicacion 1</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente dolore eveniet et? Laboriosam repellendus ab voluptates a porro distinctio vel. Vero dolorum excepturi dolore nobis libero atque culpa aliquid!</p>
+        </div>
+        <div class="card">
+            <img src="./img/web2.jpg" alt="web 1">
+            <h2>Publicacion 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente dolore eveniet et? Laboriosam repellendus ab voluptates a porro distinctio vel. Vero dolorum excepturi dolore nobis libero atque culpa aliquid!</p>
+         </div>
+         <div class="card">
+            <img src="./img/web3.jpg" alt="web 1">
+            <h2>Publicacion 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente dolore eveniet et? Laboriosam repellendus ab voluptates a porro distinctio vel. Vero dolorum excepturi dolore nobis libero atque culpa aliquid!</p>
+         </div>
+    </section>
+
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-snapchat"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <ul class="lista">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Nosotros</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Condiciones</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+        <p class="copy">
+            WebDesign @ 2022
+        </p>
+    </footer>
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.menu-links')
+
+    menuBtn.addEventListener('click', ()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+</body>
+</html>
